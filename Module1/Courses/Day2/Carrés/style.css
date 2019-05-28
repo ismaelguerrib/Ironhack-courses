@@ -1,0 +1,51 @@
+@import url("http://overpass-30e2.kxcdn.com/overpass.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: overpass;
+    min-height: 200vh;
+    margin: 0;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.box.blue {
+    background: dodgerblue;
+}
+
+.box.red {
+    left: 50px;
+    top: 50px;
+    background: firebrick;
+}
+
+.target {
+    height: 50px;
+    width: 50px;
+    border: 2px dashed;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background: darkgray;
+    color: white;
+    height: 40px;
+}
